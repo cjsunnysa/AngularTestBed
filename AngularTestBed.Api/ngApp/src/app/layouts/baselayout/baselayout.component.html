@@ -1,0 +1,12 @@
+﻿<div id="side-menu">
+  <ul>
+    <li *ngFor="let item of menu">
+      <a [routerLink]="item.route">{{item.description}}</a>
+    </li>
+  </ul>
+</div>
+<div id="app-container">
+  <div class="m-4">
+    <router-outlet></router-outlet>
+  </div>
+</div>
