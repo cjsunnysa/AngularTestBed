@@ -12,7 +12,8 @@ import * as pages from './pages';
     declarations: [
         AppComponent,
         layouts.BaseLayoutComponent,
-        pages.LandingPageComponent
+        pages.LandingPageComponent,
+        pages.FunctionalComponent
   ],
   imports: [
       BrowserModule,

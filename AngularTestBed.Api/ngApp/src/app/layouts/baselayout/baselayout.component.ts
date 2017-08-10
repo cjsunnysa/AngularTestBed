@@ -7,6 +7,7 @@ import { MenuModel } from './../../models';
 })
 export class BaseLayoutComponent {
     menu: MenuModel[] = [
-        { description: 'Landing', route: '' }
+        { description: 'Landing', route: '' },
+        { description: 'Functional Programming', route: '/functional' }
     ];
 }

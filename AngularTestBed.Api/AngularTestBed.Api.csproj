@@ -136,6 +136,7 @@
     <TypeScriptCompile Include="ngApp\src\app\layouts\index.ts" />
     <TypeScriptCompile Include="ngApp\src\app\models\index.ts" />
     <TypeScriptCompile Include="ngApp\src\app\models\menumodel.ts" />
+    <TypeScriptCompile Include="ngApp\src\app\pages\functional\functional.component.ts" />
     <TypeScriptCompile Include="ngApp\src\app\pages\index.ts" />
     <TypeScriptCompile Include="ngApp\src\app\pages\landing\landing.component.ts" />
     <TypeScriptCompile Include="ngApp\src\app\routing\index.ts" />
