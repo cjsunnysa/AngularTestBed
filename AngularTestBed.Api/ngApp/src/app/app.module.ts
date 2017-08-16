@@ -13,7 +13,8 @@ import * as pages from './pages';
         AppComponent,
         layouts.BaseLayoutComponent,
         pages.LandingPageComponent,
-        pages.FunctionalComponent
+        pages.FunctionalComponent,
+        pages.ReactivejsComponent
   ],
   imports: [
       BrowserModule,

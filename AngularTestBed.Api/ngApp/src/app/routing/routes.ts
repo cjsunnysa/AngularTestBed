@@ -6,6 +6,7 @@ import * as layouts from '../layouts';
 const PAGES: Routes = [
     { path: 'landing', component: pages.LandingPageComponent },
     { path: 'functional', component: pages.FunctionalComponent },
+    { path: 'reactive', component: pages.ReactivejsComponent },
     { path: '', redirectTo: '/landing', pathMatch: 'full' },
     { path: '**', redirectTo: '/landing', pathMatch: 'full' }
 ];

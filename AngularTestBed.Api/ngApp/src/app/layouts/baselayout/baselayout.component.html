@@ -1,7 +1,7 @@
 ﻿<div id="side-menu">
   <ul>
-    <li *ngFor="let item of menu">
-      <a [routerLink]="item.route">{{item.description}}</a>
+    <li *ngFor="let item of menu; let i = index" (click)="selectedIndex = i; onRouteClick(item.route);" [class.active]="selectedIndex === i">
+      <span>{{item.description}}</span>
     </li>
   </ul>
 </div>

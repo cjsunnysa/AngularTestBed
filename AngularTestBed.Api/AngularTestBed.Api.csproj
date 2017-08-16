@@ -89,6 +89,8 @@
     <Content Include="ngApp\src\app\layouts\baselayout\baselayout.component.css" />
     <Content Include="ngApp\src\app\layouts\baselayout\baselayout.component.html" />
     <Content Include="ngApp\src\app\pages\landing\landing.component.html" />
+    <Content Include="ngApp\src\app\pages\reactivejs\reactivejs.component.css" />
+    <Content Include="ngApp\src\app\pages\reactivejs\reactivejs.component.html" />
     <Content Include="ngApp\src\favicon.ico" />
     <Content Include="ngApp\src\index.html" />
     <Content Include="ngApp\src\styles.css" />
@@ -139,6 +141,7 @@
     <TypeScriptCompile Include="ngApp\src\app\pages\functional\functional.component.ts" />
     <TypeScriptCompile Include="ngApp\src\app\pages\index.ts" />
     <TypeScriptCompile Include="ngApp\src\app\pages\landing\landing.component.ts" />
+    <TypeScriptCompile Include="ngApp\src\app\pages\reactivejs\reactivejs.component.ts" />
     <TypeScriptCompile Include="ngApp\src\app\routing\index.ts" />
     <TypeScriptCompile Include="ngApp\src\app\routing\routes.ts" />
     <TypeScriptCompile Include="ngApp\src\environments\environment.prod.ts" />
